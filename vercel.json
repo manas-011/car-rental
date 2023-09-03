@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "name": "test-backend",
+    "builds": [
+      { "src": "server.jsx", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/server.jsx" }
+    ]
+  }
+  
